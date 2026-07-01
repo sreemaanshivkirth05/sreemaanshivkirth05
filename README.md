@@ -9,7 +9,7 @@
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/sreemaan-venkatesh/)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:sreemaanshivkirthv@smu.edu)
+[![Email](sreemaanshivkirthv@smu.edu)
 [![Portfolio](https://img.shields.io/badge/Portfolio-View-green?logo=google-chrome)](YOUR_PORTFOLIO_URL)
 [![Location](https://img.shields.io/badge/Location-Dallas%2C%20TX-orange?logo=googlemaps)](#)
 
