@@ -1,133 +1,135 @@
+[README.md](https://github.com/user-attachments/files/33690814/README.md)
 <div align="center">
 
-# Hi, I'm Sreemaan Shivkirth Venkatesh 👋
+<sub>DATA SYSTEMS &nbsp; / &nbsp; APPLIED AI &nbsp; / &nbsp; SOFTWARE ENGINEERING</sub>
 
-### Data Analyst · Data Engineer · BI Analyst · AI/ML Enthusiast
+# Sreemaan Shivkirth Venkatesh
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Turning+messy+data+into+trusted+insights;Building+SQL%2C+Python%2C+Cloud+and+BI+solutions;Computer+Science+Graduate+from+SMU;Open+to+Data+%26+Analytics+roles" alt="Typing SVG" />
+### I build the systems behind useful intelligence.
+
+**Data Engineer & Applied AI Developer** &nbsp; · &nbsp; Dallas, TX  
+MS Computer Science (AI/ML), Southern Methodist University · May 2026
+
+<p>
+  <a href="https://www.linkedin.com/in/sreemaan-venkatesh/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sreemaanvenkatesh@gmail.com"><img src="https://img.shields.io/badge/Email-20242A?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/sreemaanshivkirth05?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20work-20242A?style=flat-square&logo=github&logoColor=white" alt="All repositories" /></a>
+</p>
+
+</div>
+
+---
+
+### THE SHORT VERSION
+
+I work where **data engineering meets applied AI**. My projects range from versioned financial-data pipelines and quality-controlled analytics to full-stack research tools with AI agents. I care about the parts that make software credible: reliable inputs, traceable outputs, practical interfaces, and tests that catch failures.
+
+Currently exploring opportunities in **data engineering, analytics engineering, applied AI, and software engineering**.
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/sreemaan-venkatesh/)
-[![Email](sreemaanshivkirthv@smu.edu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View-green?logo=google-chrome)](YOUR_PORTFOLIO_URL)
-[![Location](https://img.shields.io/badge/Location-Dallas%2C%20TX-orange?logo=googlemaps)](#)
+## 01 &nbsp; / &nbsp; Selected work
 
-</div>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/sreemaanshivkirth05/fincredit-ai"><img src="https://raw.githubusercontent.com/sreemaanshivkirth05/fincredit-ai/main/docs/screenshots/landing.png" alt="FinCredit AI application screenshot" width="100%"></a>
+<h3><a href="https://github.com/sreemaanshivkirth05/fincredit-ai">FinCredit AI ↗</a></h3>
+<p><b>AI-assisted financial research and portfolio intelligence</b></p>
+<p>A full-stack workspace for equity research, paper trading, portfolio scenarios, and evidence-aware AI responses.</p>
+<p><code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>LangGraph</code> <code>Playwright</code></p>
+<p><a href="https://github.com/sreemaanshivkirth05/fincredit-ai#product-screenshots">Product screenshots</a> · <a href="https://github.com/sreemaanshivkirth05/fincredit-ai">Source & documentation</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/sreemaanshivkirth05/creditlake-financial-data-platform"><img src="https://raw.githubusercontent.com/sreemaanshivkirth05/creditlake-financial-data-platform/main/demo/dashboard-desktop.jpg" alt="CreditLake financial analytics dashboard" width="100%"></a>
+<h3><a href="https://github.com/sreemaanshivkirth05/creditlake-financial-data-platform">CreditLake ↗</a></h3>
+<p><b>Versioned SEC data, with quality checks before publishing</b></p>
+<p>Ingests SEC Company Facts into Parquet and DuckDB, models analytics with dbt, and exposes a research dashboard with filing provenance.</p>
+<p><code>Python</code> <code>DuckDB</code> <code>dbt</code> <code>Airflow</code> <code>FastAPI</code></p>
+<p><a href="https://github.com/sreemaanshivkirth05/creditlake-financial-data-platform/blob/main/docs/VALIDATION.md">Validation evidence</a> · <a href="https://github.com/sreemaanshivkirth05/creditlake-financial-data-platform">Source & architecture</a></p>
+</td>
+</tr>
+</table>
+
+**A closer look at the engineering**
+
+| Project | Problem tackled | Evidence / implementation |
+| :--- | :--- | :--- |
+| **[CreditLake](https://github.com/sreemaanshivkirth05/creditlake-financial-data-platform)** | Financial filings change over time; analytics must preserve what was known at each cutoff. | Versioned facts, release quality gates; documented **39 Python tests** and **23 dbt checks**. |
+| **[FinCredit AI](https://github.com/sreemaanshivkirth05/fincredit-ai)** | Research is fragmented across data, portfolios, reports, and narrative explanations. | Market/SEC research, portfolio-aware AI, scenario analysis, testable API and UI workflows. |
+| **[Customer Segmentation & Churn](https://github.com/sreemaanshivkirth05/customer-segmentation-churn-ecommerce)** | Business teams need actionable customer risk signals. | SQL-based feature engineering and churn modeling on ~**525K retail transaction records**. |
+
+<details>
+<summary><b>Additional repositories & explorations</b></summary>
+<br>
+
+- [AI Data Engineer](https://github.com/sreemaanshivkirth05/ai-data-engineer) — data / AI engineering work
+- [Stock Data Platform](https://github.com/sreemaanshivkirth05/stock-data-platform) — financial data workflows
+- [Enterprise E-commerce Data Migration](https://github.com/sreemaanshivkirth05/enterprise-ecommerce-data-migration) — migration project
+- [F1 Predictor](https://github.com/sreemaanshivkirth05/f1-predictor) — machine learning exploration
+
+</details>
+
+<br>
+
+## 02 &nbsp; / &nbsp; How I think about systems
+
+```text
+                       A business or user question
+                                  │
+                         Source data & context
+                                  │
+                     Contracts · quality · lineage
+                                  │
+              ┌───────────────────┴──────────────────┐
+              │                                      │
+       Pipelines & analytics                  APIs & AI workflows
+              │                                      │
+              └───────────────────┬──────────────────┘
+                                  │
+                       Tests & failure handling
+                                  │
+                    Explainable, usable outcomes
+```
+
+**What I optimize for:** reproducibility over impressive demos; clear ownership of data transformations; useful UX over opaque model output; documentation another developer can actually follow.
+
+<br>
+
+## 03 &nbsp; / &nbsp; Engineering toolkit
+
+| Discipline | Stack |
+| :--- | :--- |
+| **Languages & backend** | Python · SQL · TypeScript · JavaScript · FastAPI · REST APIs |
+| **Data platforms** | Spark / PySpark · Airflow · dbt · Kafka · ETL/ELT · dimensional modeling |
+| **Storage & cloud** | PostgreSQL · DuckDB · Snowflake · BigQuery · MySQL · AWS · GCP · Azure |
+| **Applied AI & ML** | LLM integration · RAG · agent workflows · scikit-learn · model evaluation |
+| **Product & delivery** | Next.js · Docker · GitHub Actions · Playwright · Power BI · DAX |
+
+<br>
+
+## 04 &nbsp; / &nbsp; Background
+
+**Data Analyst · Dynergic Group**  
+Worked on operational data spanning equipment rental, dispatch, billing, and fleet reporting. Used SQL, Python, Excel, and Power BI for reconciliations, validations, KPI tracking, and reporting workflows.
+
+**M.S. Computer Science (AI/ML) · Southern Methodist University**  
+Graduated May 2026 · Dallas, TX
+
+**B.Sc. Computer Science · Sri Krishna Arts and Science College**
+
+<br>
 
 ---
-
-## About Me
-
-I'm a **Computer Science graduate from Southern Methodist University** based in **Dallas, Texas**, with hands-on experience across **data analytics, data engineering, business intelligence, and applied AI**.
-
-I enjoy working at the intersection of **data, engineering, and business decision-making** — building clean reporting workflows, validating SQL outputs, automating KPI reports, creating dashboards, and developing AI/ML projects that help teams make better decisions.
-
-My core focus is simple:
-
-> Make data easier to trust, easier to access, and easier to act on.
-
----
-
-## What I Do
-
-- Build **SQL-driven reports, dashboards, and KPI tracking workflows**
-- Clean and transform messy datasets using **Python, SQL, and Pandas**
-- Design data pipelines using **AWS, Airflow, Spark, Kafka, and Snowflake**
-- Create BI dashboards using **Power BI, Tableau, Excel, and DAX**
-- Develop ML projects for **classification, churn prediction, experimentation, and financial analytics**
-- Turn business questions into structured datasets, metrics, and insights
-
----
-
-## Tech Stack
-
-### Languages & Analytics
-
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-
-### Data Engineering & Cloud
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### BI & Visualization
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-742774?style=for-the-badge&logo=powerbi&logoColor=white)
-
-### Machine Learning
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange)
-
-### Databases & Tools
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
----
-
-## Featured Projects
-
-| Project | Tech Stack | What It Shows |
-|---|---|---|
-| [FinCredit AI](YOUR_REPO_LINK) | Python · FastAPI · ML · Financial Data | AI-powered financial analytics platform for company-level risk and credit insights |
-| [Data Pipeline Automation](YOUR_REPO_LINK) | Python · SQL · Airflow · AWS | Automated data ingestion, cleaning, validation, and reporting workflows |
-| [Business KPI Dashboard](YOUR_REPO_LINK) | Power BI · SQL · DAX | Interactive dashboard for KPI monitoring, reporting, and business performance tracking |
-| [Customer Churn Prediction](YOUR_REPO_LINK) | Python · scikit-learn · Pandas | ML model to identify churn risk, key drivers, and customer behavior patterns |
-| [A/B Testing Analytics](YOUR_REPO_LINK) | Python · Statistics · Experimentation | Experiment analysis using confidence intervals, uplift, and decision-focused metrics |
-| [Cloud Data Engineering Project](YOUR_REPO_LINK) | AWS · Docker · SQL · Python | Cloud-based data workflow with structured storage, processing, and reporting output |
-
----
-
-## Current Focus
-
-- Strengthening my portfolio with real-world **data analytics and data engineering projects**
-- Building **FinCredit AI**, an applied AI project focused on financial and credit analytics
-- Improving project documentation, GitHub READMEs, and recruiter-facing portfolio presentation
-- Applying for **Data Analyst, Data Engineer, BI Analyst, Reporting Analyst, and Analytics Engineer** roles
-
----
-
-## GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+### Have a problem involving data, AI, or software?
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+I'm interested in engineering roles and conversations with people building useful systems.
+
+**[Connect on LinkedIn](https://www.linkedin.com/in/sreemaan-venkatesh/)** &nbsp; · &nbsp; **[Send an email](mailto:sreemaanvenkatesh@gmail.com)** &nbsp; · &nbsp; **[Browse repositories](https://github.com/sreemaanshivkirth05?tab=repositories)**
+
+<sub>Designed to highlight real work. Every featured project links to its repository.</sub>
 
 </div>
-
----
-
-## My Data Workflow
-
-```text
-Business Problem
-      ↓
-Data Collection
-      ↓
-Cleaning & Transformation
-      ↓
-SQL Validation
-      ↓
-Dashboard / Model / Pipeline
-      ↓
-Business Insight
-      ↓
-Decision Support
